@@ -1,0 +1,15 @@
+package com.springfundamentals.strings;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+//adding in the controller
+@RestController
+@SpringBootApplication
+public class StringsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(StringsApplication.class, args);
+	}
+
+}
